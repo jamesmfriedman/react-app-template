@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  font-size: 20vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {

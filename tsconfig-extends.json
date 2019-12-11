@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@common": ["src/common"],
+      "@common/*": ["src/common/*"],
+      "@components/*": ["src/components/*"],
+      "@state": ["src/state"],
+      "@state/*": ["src/state/*"],
+      "@views/*": ["src/views/*"],
+      "@assets/*": ["src/assets/*"]
+    }
+  }
+}

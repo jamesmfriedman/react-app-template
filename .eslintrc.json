@@ -1,0 +1,34 @@
+{
+  "extends": "react-app",
+  "plugins": ["babel"],
+  "rules": {
+    "no-undef": 0,
+    "space-before-function-paren": "off",
+    "indent": ["off", 2],
+    "max-len": [
+      "warn",
+      80,
+      {
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "react/prop-types": "off",
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "babel/no-unused-expressions": "off",
+    "prefer-reflect": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "rules": {
+        "no-unused-vars": ["off"],
+        "no-undef": ["off"]
+      }
+    }
+  ]
+}
